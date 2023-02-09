@@ -5,28 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Exercise</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        .nav__link{
-            float: left;
-            margin-left: 2%;
-        }
+      .nav__link {
+        float: left;
+        margin-left: 2%;
+      }
     </style>
   </head>
-  <body style="padding: 0;margin: 0; text-align: center;">
+  <body style="padding: 0; margin: 0; text-align: center">
     <!--*********Header Section*********-->
-    <header style="background-color:green;padding:0;margin:0;">
+    <header style="background-color: green; padding: 0; margin: 0">
       <h1>Header</h1>
 
       <!--*********Navigation Section*********-->
-      <nav style="background-color:greenyellow;padding:0;margin:0;height:20%;">
-        <ul style="list-style-type: none; height: 20px;">
-            <li class="nav__link"><a href=""></a>Home</li>
-            <li class="nav__link"><a href=""></a>About</li>
-            <li class="nav__link"><a href=""></a>Contact</li>
+      <nav
+        style="
+          background-color: greenyellow;
+          padding: 0;
+          margin: 0;
+          height: 20%;
+        "
+      >
+        <ul style="list-style-type: none; height: 20px">
+          <li class="nav__link"><a href=""></a>Home</li>
+          <li class="nav__link"><a href=""></a>About</li>
+          <li class="nav__link"><a href=""></a>Contact</li>
         </ul>
       </nav>
     </header>
     <!--*********Main Section*********-->
+    <main style="background-color: beige; height: 50%">
+      <h2>Main Content</h2>
+      <section style="background-color: brown; height: 50%">
+        <!--*********Section 1*********-->
+        <aside
+          style="
+            background-color: orange;
+            height: 100%;
+            width: 30%;
+            float: right;
+            text-align: left;
+          "
+        >
+          <h3 style="text-align: center">Aside</h3>
+          <ul>
+            <li>Unordered List Item</li>
+            <li>Unordered List Item</li>
+            <li>Unordered List Item</li>
+            <li>Unordered List Item</li>
+            <li>Unordered List Item</li>
+          </ul>
+          <ol>
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>
+            <li>Ordered List Item</li>
+          </ol>
+        </aside>
+        <h3>Section 1</h3>
+        <article style="background-color: yellowgreen; height: 50%">
+          <h3 id="article1">Article 1</h3>
+          <p style="text-align: left">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
+            iste iusto laboriosam saepe non, repudiandae voluptatem ex quis, qui
+            soluta architecto sapiente delectus impedit quibusdam in veritatis
+            consectetur eveniet blanditiis.
+          </p>
+        </article>
+      </section>
+      <hr>
+    </main>
 
     <!--*********Footer Section*********-->
   </body>
